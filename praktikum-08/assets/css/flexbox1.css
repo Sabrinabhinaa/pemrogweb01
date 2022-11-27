@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5rem;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(195, 195, 226);
+    padding: 0.5rem;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 1rem;
+}
+nav ul li a {
+    text-decoration: none;
+    color: brown;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid brown;
+}
